@@ -9,5 +9,3 @@ def hello(array)
   end
   collection
 end
-
-hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
