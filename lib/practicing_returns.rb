@@ -4,8 +4,8 @@ def hello(array)
   i = 0
   new_array = []
   while i < array.length
-    yield(array[i]) >> new_array
-    i += 1
+    yield(array[i])
+    i += 1 >> new_array
   end
   new_array
 end
